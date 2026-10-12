@@ -173,5 +173,5 @@ const INDEX = `<!doctype html>
 </body>
 </html>
 `;
-fs.writeFileSync(path.join(OUT, 'index.html'), INDEX);
-console.log('Wrote index.html');
+fs.writeFileSync(path.join(OUT, 'documentos.html'), INDEX);
+console.log('Wrote documentos.html');
