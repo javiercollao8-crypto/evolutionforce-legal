@@ -124,6 +124,8 @@ const docs = [
   { src: 'privacy-policy.en.md', out: 'privacy.html', lang: 'en', title: 'Privacy Policy', switchHref: 'privacidad.html', switchLabel: 'Versión en español', homeLabel: 'Home' },
   { src: 'terms-of-service.es.md', out: 'terminos.html', lang: 'es', title: 'Términos de Servicio', switchHref: 'terms.html', switchLabel: 'English version', homeLabel: 'Inicio' },
   { src: 'terms-of-service.en.md', out: 'terms.html', lang: 'en', title: 'Terms of Service', switchHref: 'terminos.html', switchLabel: 'Versión en español', homeLabel: 'Home' },
+  { src: 'privacy-policy.pt.md', out: 'privacidade.html', lang: 'pt-BR', title: 'Política de Privacidade', switchHref: 'privacy.html', switchLabel: 'English version', homeLabel: 'Início' },
+  { src: 'terms-of-service.pt.md', out: 'termos.html', lang: 'pt-BR', title: 'Termos de Serviço', switchHref: 'terms.html', switchLabel: 'English version', homeLabel: 'Início' },
 ];
 
 for (const d of docs) {
@@ -168,6 +170,9 @@ const INDEX = `<!doctype html>
     <a class="doc" href="privacy.html">Privacy Policy<span>English version</span></a>
     <a class="doc" href="terminos.html">Términos de Servicio<span>Terms of Service en español</span></a>
     <a class="doc" href="terms.html">Terms of Service<span>English version</span></a>
+    <a class="doc" href="suporte.html">Suporte<span>Versão em português (Brasil)</span></a>
+    <a class="doc" href="privacidade.html">Política de Privacidade<span>Versão em português (Brasil)</span></a>
+    <a class="doc" href="termos.html">Termos de Serviço<span>Versão em português (Brasil)</span></a>
   </div>
 </div>
 </body>
